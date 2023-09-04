@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/graph"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_graph"
+        android:title="가격동향"/>
+
+    <item
+        android:id="@+id/chat"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_chat"
+        android:title="채팅"/>
+
+    <item
+        android:id="@+id/farm"
+        android:enabled="true"
+        android:icon="@drawable/farm"
+        android:title="농장"/>
+
+    <item
+        android:id="@+id/myPage"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_mypage"
+        android:title="내정보"/>
+
+</menu>

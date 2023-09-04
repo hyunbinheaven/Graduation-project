@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".Login.SignUpActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="224dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/logo_veg" />
+
+    <TextView
+        android:id="@+id/textView_signUpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="회원가입"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="250dp"
+        android:layout_height="1.2dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="E-mail (이메일 형식)"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password (6자 이상)"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Nickname"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/editText_phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="PhoneNumber"
+        android:maxLength="13"
+        android:textColor="@android:color/black"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/editText_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="15"
+        android:hint="Address (시,군,구)"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_back"
+        android:text="Join"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

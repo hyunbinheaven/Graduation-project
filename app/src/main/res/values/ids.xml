@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_search" type="id" />
+    <item name="home" type="id" />
+    <item name="search" type="id" />
+    <item name="chat" type="id" />
+    <item name="myPage" type="id" />
+</resources>

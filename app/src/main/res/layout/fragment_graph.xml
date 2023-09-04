@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BottomNavi.GraphFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:dropDownWidth="200dp"
+            android:spinnerMode="dropdown"
+            android:background="#EFF6E7"
+            android:textColor="#000000"
+            android:popupBackground="#EFF6E7"
+            android:dropDownVerticalOffset="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/chart_button"
+            android:layout_marginTop="4dp"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="검색"
+            android:textSize="15sp"
+            android:onClick="OnClick"
+            android:background="@drawable/button_back"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" />
+</LinearLayout>

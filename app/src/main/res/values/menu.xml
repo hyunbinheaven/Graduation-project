@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="veg_menu">
+        <item>시금치</item>
+        <item>상추</item>
+        <item>호박</item>
+        <item>오이</item>
+        <item>양배추</item>
+        <item>피망</item>
+        <item>당근</item>
+        <item>호박</item>
+        <item>감자</item>
+        <item>무</item>
+        <item>토마토</item>
+        <item>고구마</item>
+        <item>양파</item>
+        <item>파프리카</item>
+        <item>풋고추</item>
+        <item>생강</item>
+        <item>미나리</item>
+        <item>깻잎</item>
+        <item>방울토마토</item>
+        <item>느타리버섯</item>
+        <item>팽이버섯</item>
+        <item>포도</item>
+        <item>사과</item>
+        <item>배</item>
+        <item>단감</item>
+        <item>바나나</item>
+        <item>참다래</item>
+        <item>오렌지</item>
+        <item>레몬</item>
+        <item>망고</item>
+    </string-array>
+    <style name="SpinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

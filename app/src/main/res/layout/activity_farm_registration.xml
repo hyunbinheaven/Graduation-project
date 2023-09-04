@@ -1,0 +1,59 @@
+<!-- activity_farm_registration.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="농장 등록"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="@font/pretendard"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/farm_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="농장 이름을 입력하세요"
+        android:fontFamily="@font/pretendard"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/farm_description_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="농장 설명을 입력하세요"
+        android:inputType="textMultiLine"
+        android:fontFamily="@font/pretendard"
+        android:minLines="3"
+        android:gravity="top"/>
+
+    <ImageView
+        android:id="@+id/farm_image_view"
+        android:layout_width="200dp"
+        android:layout_height="246dp"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/select_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="농장 프로필 사진 불러오기"
+        android:fontFamily="@font/pretendard"
+        android:background="@drawable/button_back"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="농장 등록"
+        android:fontFamily="@font/pretendard"
+        android:background="@drawable/button_back"/>
+
+
+</LinearLayout>

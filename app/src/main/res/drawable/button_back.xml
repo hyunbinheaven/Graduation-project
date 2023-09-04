@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/button_back_pressed"
+        />
+
+
+    <item
+        android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:color="#000000" android:width="1dp"/>
+            <solid android:color="@color/button_normal_color"/>
+
+        </shape>
+    </item>
+
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="#000000" android:width="1dp"/>
+            <solid android:color="@color/button_normal_color"/>
+
+        </shape>
+    </item>
+
+
+    <item
+        android:state_enabled="false"
+        android:radius="20dp"
+        android:drawable="@drawable/button_back_disabled"/>
+
+</selector>
